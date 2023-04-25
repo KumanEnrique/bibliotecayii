@@ -126,4 +126,3 @@ class SiteController extends Controller
         return $this->render('about');
     }
 }
-//min 10  https://www.youtube.com/watch?v=WvxYiCVSwl4

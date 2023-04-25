@@ -1,0 +1,145 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#65c89b",
+        "activityBar.background": "#65c89b",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#945bc4",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#65c89b",
+        "statusBar.background": "#42b883",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#359268",
+        "statusBarItem.remoteBackground": "#42b883",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#42b883",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#42b88399",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "vim.useCtrlKeys": false,
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "f",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "z"
+            ],
+            "after": [
+                "C-f"
+            ]
+        },
+        {
+            "before": [
+                "t"
+            ],
+            "after": [
+                "C-b"
+            ]
+        },
+        {
+            "before": [
+                "q"
+            ],
+            "after": [
+                "g",
+                "_"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "g",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "/",
+                "/"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                "/",
+                "/"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        }
+    ],
+    "vim.handleKeys": { //desactivar combinaciones
+        "<C-d>": false,
+        "<C-c>": false,
+    },
+    "peacock.color": "#42b883",
+    "editor.fontSize": 12,
+    "window.zoomLevel": 3,
+    "editor.mouseWheelZoom": true,
+    "files.autoSave": "onWindowChange",
+    "window.commandCenter": true,
+    "screencastMode.fontSize": 20,
+    "screencastMode.mouseIndicatorSize": 51,
+    "screencastMode.verticalOffset": 1,
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "html.hover.documentation": false,
+    "html.hover.references": false,
+    "css.hover.documentation": false,
+    "css.hover.references": false,
+    //
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": false,
+    // "editor.minimap.autohide": true,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "auto",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": false,
+    "breadcrumbs.enabled": true,
+    "editor.glyphMargin": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+}

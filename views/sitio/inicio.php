@@ -19,4 +19,3 @@ if ($mensaje)
         </div>
     </div>
 <?php ActiveForm::end() ?>
-<!-- min 31 de yii youtube -->
